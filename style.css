@@ -12,6 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column; */
+    height: 100vh;
 }
 img {
     border: 2px solid yellow;
@@ -35,7 +36,8 @@ iframe{
 }
 .nav_es_egyebek{
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
+    height: 120px;
 }
 th {
 	font-weight: bolder;
