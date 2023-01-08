@@ -28,6 +28,6 @@ Projektünk során összegyűjtöttünk közönség kedvenc, felkapott és nekü
         - halal_ereklyei.html
         - morbius.html
         - spongyabob.html
-    - kis style.css (navigation bar, háttér)
+    - kis style.css (navigation bar)
 
         
