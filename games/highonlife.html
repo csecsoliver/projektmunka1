@@ -6,14 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>High On Life</title>
     <link rel="stylesheet" href="../style.css">
-
+    <style>
+        .fegyverek {
+            margin-left: 80px;
+        }
+        img {
+            margin: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <h1 id=cim><img id="logo" src="images/HOLlogo.png" alt="">High On Life</h1>
         <div id="navbar">
-            <a class="button" href="../index.html">Főoldal</a>
+            <button><a href="index.html">Főoldal</a></button>
+            <div class="dropdown">
+                <button class="dropbutton">Filmek <span class="arrow"></span></button>
+                <div class="dropdown-content">
+                    <a href="films/endgame.html">Bosszúállók: Végjáték</a>
+                    <a href="films/freeguy.html">Free Guy</a>
+                    <a href="films/halal_ereklyei.html">Harry Potter: Halál Ereklyéei 2.</a>
+                    <a href="films/morbius.html">Morbius</a>
+                    <a href="films/spongyabob.html">Spongyabob: Ki a vízből!</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbutton">Játékok <span class="arrow"></span></button>
+                <div class="dropdown-content">
+                    <a href="games/fortnite.html">Fortnite</a>
+                    <a href="games/minecraft.html">Minecraft</a>
+                    <a href="games/highonlife.html">High On Life</a>
+                    <a href="games/enterthegungeon.html">Enter the Gungeon</a>
+                    <a href="games/subnautica.html">Subnautica</a>
+                    <a href="games/survivingmars.html">Surviving Mars</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbutton">Könyvek <span class="arrow"></span></button>
+                <div class="dropdown-content">
+                    <a href="books/galaxis_utikalauz.html">Galaxis Útikalauz</a>
+                    <a href="books/acelbarlangok.html">Acélbarlangok</a>
+                    <a href="books/abolcsekkove.html">A bölcsek köve</a>
+                    <a href="books/alapitvay.html">Alapítvány</a>
+                    <a href="books/enarobot.html">Én a robot</a>
+                </div>
+            </div>
         </div>
     </header>
     <div class="main">
@@ -33,12 +71,14 @@
             <p>Justin Roiland állítólag nagymértékben részt vesz a High on Life létrehozásában . A játék eredeti koncepciójának megalkotásáért, valamint a tervezésben és fejlesztésben való részvételért elismerést kapott.  Erich Mayr tervezési igazgató úgy írta le a játék stílusát, hogy " Blade Runner meets The Muppets ".</p>
             <p>Fegyverek</p>
             <p>Essen szó a fegyverekről is. A játék beszélő fegyverei egyedi személyiséggel is rendelkeznek. A játékosok összesen hat „Gatlians” nevű élő idegen fegyverrel támadnak, amelyek mindegyike elsődleges, alternatív és speciális „trükkös lyuk” tüzelési módokkal van felszerelve. A különleges fegyverek nem harci forgatókönyvekben is használhatók rejtvények megoldására, és bizonyos területek eléréséhez szükségesek.</p>
-            <img src="images/kenny.png" alt="">
-            <img src="images/lezduit.png" alt="">
-            <img src="images/gus.png" alt="">
-            <img src="images/knifey.png" alt="">
-            <img src="images/sweezy.png" alt="">
-            <img src="images/creature.png" alt="">
+            <div class="fegyverek">
+                <img src="images/kenny.png" alt="">
+                <img src="images/lezduit.png" alt="">
+                <img src="images/gus.png" alt="">
+                <img src="images/knifey.png" alt="">
+                <img src="images/sweezy.png" alt="">
+                <img src="images/creature.png" alt="">
+            </div>
         </div>
     </div>
     <footer>
@@ -46,7 +86,7 @@
             Forrás: <a href="https://en.wikipedia.org/wiki/High_on_Life_(video_game)" target="_blank">Wikipédia</a>
         </p>
     </footer>
-    <div class="background"></div>
+    <div class="background"></div>a
 
 
 </body>

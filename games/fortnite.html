@@ -16,28 +16,72 @@
         iframe {
             padding-left: 40px;
         }
+        .map {
+            float:left;
+            width: 400px;
+            margin: 20px;
+        }
+        .weapons {
+            margin-left: 300px;
+        }
+        .dirt {
+            margin-left: 650px;
+            margin-top: 25px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1 id="cim"><img id="logo" src="images/Fortnite_F_lettermark_logo.png" alt="logo">Fortnite: Battle Royale</h1>
         <div id="navbar">
-            <a class="button" href="../index.html">Főoldal</a>
+            <button><a href="index.html">Főoldal</a></button>
+            <div class="dropdown">
+                <button class="dropbutton">Filmek <span class="arrow"></span></button>
+                <div class="dropdown-content">
+                    <a href="films/endgame.html">Bosszúállók: Végjáték</a>
+                    <a href="films/freeguy.html">Free Guy</a>
+                    <a href="films/halal_ereklyei.html">Harry Potter: Halál Ereklyéei 2.</a>
+                    <a href="films/morbius.html">Morbius</a>
+                    <a href="films/spongyabob.html">Spongyabob: Ki a vízből!</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbutton">Játékok <span class="arrow"></span></button>
+                <div class="dropdown-content">
+                    <a href="games/fortnite.html">Fortnite</a>
+                    <a href="games/minecraft.html">Minecraft</a>
+                    <a href="games/highonlife.html">High On Life</a>
+                    <a href="games/enterthegungeon.html">Enter the Gungeon</a>
+                    <a href="games/subnautica.html">Subnautica</a>
+                    <a href="games/survivingmars.html">Surviving Mars</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbutton">Könyvek <span class="arrow"></span></button>
+                <div class="dropdown-content">
+                    <a href="books/galaxis_utikalauz.html">Galaxis Útikalauz</a>
+                    <a href="books/acelbarlangok.html">Acélbarlangok</a>
+                    <a href="books/abolcsekkove.html">A bölcsek köve</a>
+                    <a href="books/alapitvay.html">Alapítvány</a>
+                    <a href="books/enarobot.html">Én a robot</a>
+                </div>
+            </div>
         </div>
     </header>
     <p>Az idő tájt amikor az Epic korai hozzáférésben megjelentette a Fortnite-ot a PlayerUnknown’s Battlegrounds világsiker lett, a 2017. márciusi megjelenése után három hónappal már 5 millió példányt adtak el belőle, felkeltve ezzel az érdeklődést a battle royale műfaj iránt. Az Epic ráeszmélt, hogy a Fortnite alapjátékhoz maguk is hozzá tudnának adni egy battle royale játékmódot, így gyors iramban, körülbelül két hónap alatt el is készültek ezzel. 2017 szeptemberében az Epic készen állt ahhoz, hogy ezt a játékmódot hozzáadja a Save the World fizetős korai hozzáférésű verziójához, azonban később úgy döntött, hogy inkább Fortnite Battle Royale címen különállóan, ingyenesen játszható, azonban mikrotranzakciókkal támogatott formában jelenteti meg azt. Ez a változat gyorsan hatalmas játékosbázist alakított ki; megjelenése utáni első két hétben több mint 10 millió felhasználói fiókot regisztráltak, aminek hatására az Epic különálló fejlesztőcsapatokat alakított ki a Fortnite Battle Royale és a Save the World fejlesztéséhez. Ennek hatására a Fortnite Battle Royale a Save the World által nem támogatott platformok, így az iOS, az Android és a Nintendo Switch felé terjeszkedhetett.</p>
     <p>A Fortnitenak van egy elég bonyolult története is, ezt meg lehet ismerni a következő videóból:</p>
-    <iframe height="1000px"  src="https://www.youtube.com/embed/KFkU5EK3Zfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe height="1000px" width="1750"  src="https://www.youtube.com/embed/KFkU5EK3Zfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p>A Chapter 4 nemrégen jelent meg, és látszólag újra felélesztette a játékot, miután az elmúlt seasonokban haldokolt. Új pálya, fegyverek, mechanikák és járművek!</p>
-    <img src="images/weapons.png" alt="">
+    <img class="weapons" src="images/weapons.png" alt="">
     <div>
-    <img src="images/fortnitedirtbike.png" alt="">
+    <img class="dirt" src="images/fortnitedirtbike.png" alt="">
     </div>
     <p>A négy pálya: Athena, Apollo, Artemis, Asteria</p>
-    <img src="images/athena.png" alt="">
-    <img src="images/apollo.png" alt="">
-    <img src="images/artemis.png" alt="">
-    <img src="images/asteria.png" alt="">
+    
+    <div><img class="map" src="images/athena.png" alt=""></div>
+    <div><img  class="map" src="images/apollo.png" alt=""></div>
+    <div><img class="map" src="images/artemis.png" alt=""></div>
+    <div><img class="map" src="images/asteria.png" alt=""></div>
     <footer></footer>
     <div class="background"></div>
     </html>
