@@ -9,9 +9,14 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column; */
-    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(films/images/layered-waves-haikei.svg);
 }
-.background {
+
+/* .background {
     width: 100%;
     height: 400px;
     background-image: url(films/images/layered-waves-haikei.svg);
@@ -21,7 +26,7 @@ body {
     background-size: 100%;
     background-position-y: bottom;
     float: left;
-}
+} */
 .button, button {
 
     background-color: transparent;
@@ -204,6 +209,10 @@ footer {
     clear: both;
     bottom: 1px;
     text-align: right;
+    display: flex;
+    /* one text in the middle one text on the right */
+    justify-content: space-between;
+    
 }
 
 header {
